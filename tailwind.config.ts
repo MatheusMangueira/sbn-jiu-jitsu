@@ -8,11 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        suburbio: ['Dancing Script', 'cursive'],
       },
+
+      colors: {
+        primary: '#212121',
+        base: '#E4E4E4',
+      }
     },
   },
   plugins: [],
