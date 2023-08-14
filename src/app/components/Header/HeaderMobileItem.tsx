@@ -11,7 +11,7 @@ export const HeaderMobileItem = ({ href, children }: HeaderMobileItemProps) => {
       <div
         area-label="nav mobile"
         className="ml-4 
-        text-base font-medium dark:text-white text-gray-900"
+        text-base font-medium dark:text-white text-white"
       >
         {children}
       </div>
