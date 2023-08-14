@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { Title } from "../Title";
 import { markerPositions } from "./markerPositions";
 
-export const Map = () => {
+export default function Map()  {
   return (
     <div className="sm:p-10 p-4">
       <div className="w-full flex items-center justify-center pb-10">

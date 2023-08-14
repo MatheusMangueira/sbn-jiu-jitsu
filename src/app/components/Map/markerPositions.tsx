@@ -6,7 +6,7 @@ import kids from "../../assets/images/kids.png";
 import { LatLngExpression } from "leaflet";
 
 type MarkerPositions = {
-  position: LatLngExpression
+  position: LatLngExpression;
   content: JSX.Element;
 }[];
 
