@@ -3,9 +3,10 @@ import torquarto from "../../assets/images/torquarto.png";
 import bicudo from "../../assets/images/bicudo.png";
 import cla from "../../assets/images/cla.png";
 import kids from "../../assets/images/kids.png";
+import { LatLngExpression } from "leaflet";
 
 type MarkerPositions = {
-  position: [number, number];
+  position: LatLngExpression
   content: JSX.Element;
 }[];
 
