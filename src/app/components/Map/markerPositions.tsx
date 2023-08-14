@@ -4,7 +4,12 @@ import bicudo from "../../assets/images/bicudo.png";
 import cla from "../../assets/images/cla.png";
 import kids from "../../assets/images/kids.png";
 
-export const markerPositions = [
+type MarkerPositions = {
+  position: [number, number];
+  content: JSX.Element;
+}[];
+
+export const markerPositions: MarkerPositions = [
   {
     position: [-12.901751, -38.486415],
     content: (
