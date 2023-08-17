@@ -4,6 +4,7 @@ import logoTor from "../assets/images/torquarto.png"
 
 export const academyList = [
   {
+    id: 0,
     nameAcademy: "Escola de luta",
     teachers: "Torquato, João, Maria",
     address: "Rua 1, 123",
@@ -14,6 +15,7 @@ export const academyList = [
 
   },
   {
+    id: 1,
     nameAcademy: "Escola de luta",
     teachers: "Torquato, João, Maria",
     address: "Rua 1, 123",
@@ -24,6 +26,7 @@ export const academyList = [
 
   },
   {
+    id: 3,
     nameAcademy: "Escola de luta",
     teachers: "Torquato, João, Maria",
     address: "Rua 1, 123",
@@ -34,6 +37,7 @@ export const academyList = [
 
   },
   {
+    id: 4,
     nameAcademy: "Escola de luta",
     teachers: "Torquato, João, Maria",
     address: "Rua 1, 123",
@@ -43,6 +47,4 @@ export const academyList = [
     logo: logoTor
 
   },
-
-
 ]
