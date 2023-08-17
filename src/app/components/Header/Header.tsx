@@ -18,7 +18,7 @@ const header = [
   {
     id: 2,
     name: "Academias",
-    path: "/",
+    path: "/academy",
   },
   {
     id: 3,

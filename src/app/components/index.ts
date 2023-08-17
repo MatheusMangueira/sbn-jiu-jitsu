@@ -6,3 +6,4 @@ export * from "./Title"
 export * from "./Carrossel"
 export * from './Footer';
 export * from "./PhotoPage"
+export * from "./AcademyCard"
