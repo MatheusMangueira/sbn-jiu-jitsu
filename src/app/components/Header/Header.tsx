@@ -35,7 +35,7 @@ import { HeaderMobileItem } from "./HeaderMobileItem";
 
 export const Header = () => {
   return (
-    <div className="sticky top-0 z-[99999999]" aria-label="Navbar" id="Home">
+    <div className="sticky top-0 z-[1]" aria-label="Navbar" id="Home">
       <Popover>
         <div className="px-5 py-4 lg:py-0 flex justify-between w-full items-center bg-primary relative">
           <div className="mr-2 lg:hidden flex justify-between w-full">
