@@ -4,16 +4,12 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photo";
 
-interface OpenLightboxArgs {
-  index: number;
-}
-
 export const GalleryPage = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-  const openLightbox = useCallback((_: any, args: OpenLightboxArgs) => {
-    setCurrentImage(args.index);
+  const openLightbox = useCallback((_, index) => {
+    setCurrentImage(index);
     setViewerIsOpen(true);
   }, []);
 
@@ -24,7 +20,7 @@ export const GalleryPage = () => {
 
   const styles = {
     view: () => ({
-      "display": "flex !important",
+      display: "flex !important",
       "justify-content": "center",
     }),
   };
@@ -38,7 +34,7 @@ export const GalleryPage = () => {
             <Carousel
               styles={styles}
               currentIndex={currentImage}
-              views={photos.map((x: any) => ({
+              views={photos.map((x) => ({
                 ...x,
                 srcset: x.srcSet,
                 caption: x.title,
