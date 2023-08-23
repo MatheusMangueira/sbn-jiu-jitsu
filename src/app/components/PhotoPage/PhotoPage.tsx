@@ -1,4 +1,5 @@
 import { GalleryPage } from "..";
+import { photos } from "../GalleryPage/photo";
 import { Title } from "../Title";
 
 export const PhotoPage = () => {
@@ -7,7 +8,12 @@ export const PhotoPage = () => {
       <div className="w-full flex items-center justify-center pb-10">
         <Title color="text-primary" title="Galeria" />
       </div>
-      <GalleryPage />
+      {/* <GalleryPage /> */}
+      <div>
+        <GalleryPage 
+        
+        galleryID="my-test-gallery" images={photos} />
+      </div>
     </div>
   );
 };
